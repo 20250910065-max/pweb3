@@ -1,28 +1,60 @@
+/* Tampilan halaman */
 body {
+    background-color: #fceaf2;
     font-family: Arial, sans-serif;
-    max-width: 800px;
-    margin: 30px auto;
-    padding: 0 16px;
-    line-height: 1.6;
+    margin: 0;
+    padding: 30px;
+    color: #444;
 }
-pre {
-    background: #f4f4f4;
-    padding: 10px;
-    overflow-x: auto;
+
+/* Kotak utama */
+header {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
 }
-.screenshot {
-    border: 2px dashed #999;
-    padding: 20px;
-    text-align: center;
-    color: #666;
-    margin: 10px 0;
-}
-.subjudul {
-    text-align: center;
-    font-weight: bold;
-    font-size: 24px;
-    margin-top: 0%;
+
+/* Judul utama */
 h1 {
-    margin-bottom: 0;
+    color: #963b70;
+    font-size: 32px;
 }
-    }
+
+/* Subjudul */
+h2, h3, h4, h5 {
+    color: #963b70;
+}
+
+/* Navigasi */
+nav {
+    background-color: #963b70;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+/* Garis pembatas */
+hr {
+    border: 1px solid #e8c3d5;
+    margin: 20px 0;
+}
+
+/* Paragraf */
+p {
+    line-height: 1.7;
+}
+
+/* Daftar biodata */
+li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Daftar keahlian */
+ol {
+    padding-left: 25px;
+}
+
+/* Tampilan kontak */
