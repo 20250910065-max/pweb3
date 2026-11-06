@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posttest-Pretest-Tugas_Mod3</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<p>
+    <h1>
+        <center>WEB DESAIN - MODUL 3 </center>
+    </h1>
+    <p class="subjudul">CSS</p>
+    <p>
+        <center>Dosen Pengampu: Dede Irawan, M.Kom</center>
+    </p>
+    <hr>
+    <p>Nama: Reinna Valogina</p>
+    <p>NIM: 20250910065</p>
+    <p>Kelas: SINFC 2025 03</p>
+    <hr>
+    <h2>A. Pre-Test</h2>
+
+    <h3>1. Jelaskan keudukan CSS dalam pemrograman web.</h3>
+    <p>
+        CSS (Cascading Style Sheets) merupakan bahasa yang digunakan untuk mengatur 
+        tampilan dan desain halaman web. CSS berfungsi memperindah halaman HTML, seperti mengatur warna, 
+        ukuran tulisan, jenis font, jarak, serta tata letak agar halaman web terlihat lebih menarik dan rapi.
+    </p>
+    <h3>2. Berikan masing-masing satu contoh penggunaan css selektor</h3>
+    <ul>
+        <li>Selektor Tag : Digunakan untuk memilih elemen berdasarkan nama tag HTML.
+            <p> p { </p>
+                <p> color: pink;</p>
+                    <p>}</p>
+        </li>
+        <li>Selektor Class: Digunakan untuk memilih elemen berdasarkan nama class.</li>
+            <p>.judul { </p>
+                <p> color: pink;</p>
+                    <p>}</p>
+        <li>Selektor ID: Digunakan untuk memilih elemen berdasarkan ID.</li>
+            <p>#header { </p>
+                <p> background-color: pink;</p>
+                    <p>}</p>
+    </ul>
+<hr>
+    <h2>B. Post-Test</h2>
+    <h3>1. Buat masing-masing satu contoh program untuk mengimplementasikan cara menulis CSS!</h3>
+        <p>Ada 3 cara penulisan CSS, yaitu:</p>
+    <ul>
+        <li> CSS Inline : CSS ditulis langsung di dalam tag HTML menggunakan atribut style </li>
+        <p> HTML</p>
+        <pre> < !DOCTYPE html >
+        < html lang="id" >
+        < head >
+        < meta charset="UTF-8" >
+        < meta name="viewport" content="width=device-width, initial-scale=1.0">
+        < title> CSS Inline < / title>
+        <  /head > 
+        < body >
+        < h1 style="color: blue; text-align: center;">
+        Belajar CSS Inline
+    < /h1 >
+    < p style="color: red; font-size: 20px;">
+        Ini adalah contoh penggunaan CSS Inline.
+    < /p>
+    < /body>
+    < /html>
+    </pre>
+    <li> CSS Internal: CSS ditulis menggunakan tag < style> di bagian < head> </li>
+    <pre> < !DOCTYPE html >
+        < html lang="id" >
+        < title> CSS Inline < / title>
+        < style>
+        < h1 
+            color: blue; 
+            text-align: center;"
+        <   }
+        < /style>
+        </pre>    
+    <li> CSS Eksternal: Ditulis pada file terpisah dengan ekstensi .css, kemudian dihubungkan ke file HTML menggunakan tag < link> </li>
+    <p> HTML</p>
+    <pre> < !DOCTYPE html >
+        < html>
+        < head >
+        < title> CSS Inline < / title>
+        < link rel="stylesheet" href="stylesheeet.css">
+        <  /head > 
+        < body >
+        < h1> Belajar CSS Eksternal < /h1>
+        < p> ini adalah contoh CSS Eksternal> 
+        < /body>
+        < /html>
+    </pre>
+    <p> CSS</p>
+    <pre> h1 {
+        color: pink;
+        text-align: center;
+    }
+    p {
+        color: blue;
+    }
+    </pre>
+</ul>
+<hr>
+<h2>C. Latihan/Tugas</h2>
+<h3>1. Tambahkan kode css pada tugas pada modul 1</h3>
+        Proyek: Landing Page<br>
+        Repository: <a href="https://github.com/20250910065-max/pweb3.git">https://github.com/20250910065-max/pweb3.git</a><br>
+        Situs (GitHub Pages): <a href="https://20250910065-max.github.io/pweb3/landing_page.html">https://20250910065-max.github.io/pweb3/landing_page.html</a>
+    <p>Perintah yang dijalankan:</p>
+<pre>git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/20250910065-max/pweb3.git
+git push -u origin main</pre>
+    <div class="screenshot"><img src="Screenshot (72).png" width="700"></div>
+<div class="screenshot"><img src="Screenshot (73).png" width="700"></div>
+
+    <h3>2. Simpan seluruh praktikum pada modul sebelumnya kedalam repository Git yang 
+sudah anda buat</h3>
+        Repository: <a href="https://github.com/20250910065-max/Praktikum_WEB.git">https://github.com/20250910065-max/Praktikum_WEB.git</a><br>
+    <p>Perintah yang dijalankan:</p>
+<pre>git init
+git add .
+git commit -m "Menyimpan praktikum moodul 1 sampai 3"
+git branch -M main
+git remote add origin https://github.com/20250910065-max/Praktikum_WEB.git
+git push -u origin main --force </pre>
+    <div class="screenshot"><img src="Screenshot (74).png" width="700"></div>
+</body>
+</html>
