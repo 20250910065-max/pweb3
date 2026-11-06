@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 16px;
+    line-height: 1.6;
+}
+pre {
+    background: #f4f4f4;
+    padding: 10px;
+    overflow-x: auto;
+}
+.screenshot {
+    border: 2px dashed #999;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    margin: 10px 0;
+}
+.subjudul {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 0%;
+h1 {
+    margin-bottom: 0;
+}
+    }
